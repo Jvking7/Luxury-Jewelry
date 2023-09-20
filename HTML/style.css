@@ -1,8 +1,26 @@
 body {
-
+    background-color: #dad7cd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1 {
+.banner {
+    background-image: url("/HTML/jewelry-banner.jpeg");
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+article {
+   width: 100%; 
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* h1 {
 
 }
 
@@ -20,4 +38,4 @@ nav ul {
 
 nav li {
     
-}
+} */

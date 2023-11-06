@@ -4,7 +4,7 @@ body {
 }
 
 .banner {
-    background-image: url("/HTML/jewelry-banner.jpeg");
+    background-image: url("/App/Assets/jewelry-banner.jpeg");
     background-size: cover;
     height: 200px;
     width: 100%;

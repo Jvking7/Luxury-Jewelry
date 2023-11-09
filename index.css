@@ -43,22 +43,20 @@ nav {
 
 nav ul {
     list-style: none;
-    text-align: center;
-    padding: 0;
-    height: 4vh;
-    margin: 0;
+    display: flex;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    justify-content: center;
+    flex-wrap: nowrap;
+
 }
 
 nav li {
-    display: inline-block;
-    height:px; 
-    width:50px; 
-    margin-right: 5%; 
+
 } 
 
 nav ul li a {
-    display: block;
-    margin-top: 15%;
     text-decoration: none;
     color: #ffffff;
     font-size: 16px;

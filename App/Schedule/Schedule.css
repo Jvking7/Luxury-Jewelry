@@ -22,6 +22,7 @@ main {
 
 h2 {
     font-size: 1.5rem;
+    color: #F08700;
 } 
 
 Header > img {
@@ -32,7 +33,7 @@ Header > img {
 
 nav {
     border-radius: 12px;
-    background-color: #482728;
+    background-color: #F45B69
 }
 
 nav ul {

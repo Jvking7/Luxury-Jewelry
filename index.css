@@ -1,12 +1,16 @@
 html {
     font-size: 10px;
+    height: 100vh;
 }
 
 body {
     background-color: #FEFEFF;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
+    margin: 0 auto;
     height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
 }
 
 .banner {
@@ -22,7 +26,13 @@ main {
     width: 90%;
     margin: 0 auto;
     display: block;
-    height: 100%;
+    max-width: 1700px;
+
+}
+
+header {
+    max-width: 1700px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -42,9 +52,10 @@ Header > img {
 
 nav {
     border-radius: 12px;
-    background-color: #F45B69;
+    background-color: #91171F;
     width: 90%;
     margin: 2rem auto;
+    max-width: 1700px;
 }
 
 nav ul {
@@ -80,7 +91,7 @@ nav ul li a:hover{
 }
 
 .card {
-    background-color: #FCEEEF;
+    background-color: #F4E4BA;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -104,8 +115,12 @@ nav ul li a:hover{
     border-radius: 25px;
     float: left;
     width: 100%;
-    height: 100%;
+    height: 200px;
     object-fit: cover;
+}
+
+.card-col {
+    width: 32%;
 }
 
 table {
@@ -117,21 +132,23 @@ table {
 }
 
 footer {
-    display: flex;
     align-items: center;
     background-color: #8B939C;
-    width: 100%;
+    width: 100vw;
     margin: 0;
     bottom: 0;
     padding-top: 4rem;
     padding-bottom: 3rem;
+    margin-top: auto;
+    
 }
 
-footer div {
-    flex: 1;
-    padding: 10px;
+.footer-container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1700px;
+    justify-content: space-between;
+    padding: 0 20rem;
+
 }
 
-footer div p {
-    text-align: right;
-}

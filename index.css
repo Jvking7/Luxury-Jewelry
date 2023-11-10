@@ -52,10 +52,11 @@ Header > img {
 
 nav {
     border-radius: 12px;
-    background-color: #C21E29;
+    background-color: #C90D16;
     width: 90%;
     margin: 2rem auto;
     max-width: 1700px;
+    padding: 1rem 0;
 }
 
 nav ul {
@@ -70,7 +71,7 @@ nav ul {
 }
 
 nav li {
-
+    padding: 0 1rem;
 } 
 
 nav ul li a {

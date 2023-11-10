@@ -52,7 +52,7 @@ Header > img {
 
 nav {
     border-radius: 12px;
-    background-color: #91171F;
+    background-color: #C21E29;
     width: 90%;
     margin: 2rem auto;
     max-width: 1700px;
@@ -99,6 +99,7 @@ nav ul li a:hover{
     border-radius: 25px;
     color: #0D090A;
     width: 100%;
+    min-height: 40rem;
 }
 
 .card:hover {

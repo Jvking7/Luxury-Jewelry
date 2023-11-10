@@ -3,8 +3,10 @@ html {
 }
 
 body {
-    background-color: #d6d6d6;
+    background-color: #FEFEFF;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    height: 100%;
 }
 
 .banner {
@@ -20,6 +22,7 @@ main {
     width: 90%;
     margin: 0 auto;
     display: block;
+    height: 100%;
 }
 
 h1 {
@@ -28,7 +31,7 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
-    color: #F08700;
+    color: #0D090A;
 } 
 
 Header > img {
@@ -72,16 +75,19 @@ nav ul li a:hover{
 
 .card-container {
     display: flex;
+    justify-content: space-between;
+    max-width: 100%; 
 }
 
 .card {
-    background-color: #ffffff;
+    background-color: #FCEEEF;
     display: flex;
     flex-direction: column;
     justify-content: start;
     margin-top: 1%;
     border-radius: 25px;
-    margin: 5px;
+    color: #0D090A;
+    width: 100%;
 }
 
 .card:hover {
@@ -96,6 +102,10 @@ nav ul li a:hover{
 
 .card > img {
     border-radius: 25px;
+    float: left;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 table {
@@ -109,6 +119,12 @@ table {
 footer {
     display: flex;
     align-items: center;
+    background-color: #8B939C;
+    width: 100%;
+    margin: 0;
+    bottom: 0;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
 }
 
 footer div {

@@ -195,8 +195,23 @@ footer {
     max-width: 1700px;
     justify-content: space-between;
     padding: 0 20rem;
+    font-size: 1.7rem;
+}
+
+.footer-container div p {
+    text-align: center;
 }
 
 @media (max-width: 480px) {
-        /* add flex wrap to my container flex boxes and nav bar */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }    
+    
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    /* add flex wrap to my container flex boxes and nav bar */
 }

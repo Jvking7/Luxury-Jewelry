@@ -197,3 +197,8 @@ footer {
     padding: 0 20rem;
 }
 
+@media (max-width: 480px) {
+    .text {
+        font-size: 14px;
+    }
+}

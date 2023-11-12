@@ -1,0 +1,142 @@
+html {
+    font-size: 10px;
+    height: 100vh;
+}
+
+body {
+    background-color: #FEFEFF;
+    margin: 0 auto;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.banner {
+    background-image: url("../Assets/Schedule\ main\ image.webp");
+    background-size: cover;
+    height: 990px;
+    width: 100%;
+    border-radius: 10px;
+    font-family: Montserrat, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    max-width: 1700px;
+    padding: 16px;
+    background-color: white;
+    margin: 0 auto;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 10px;
+
+}
+
+.btn {
+background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 300px;
+  opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    max-width: 1700px;
+}
+
+header {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+nav {
+    border-radius: 12px;
+    background-color: #006980;
+    width: 90%;
+    margin: 2rem auto;
+    max-width: 1700px;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+nav li {
+    padding: 0 1rem;
+} 
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: Montserrat, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+footer {
+    align-items: center;
+    background-color: #8B939C;
+    width: 100%;
+    margin: 0;
+    bottom: 0;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1700px;
+    justify-content: space-between;
+    padding: 0 20rem;
+}
+
+@media (max-width: 480px) {
+    .text {
+        font-size: 14px;
+    }
+}

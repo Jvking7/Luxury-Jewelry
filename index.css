@@ -198,7 +198,5 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .text {
-        font-size: 14px;
-    }
+        /* add flex wrap to my container flex boxes and nav bar /*
 }

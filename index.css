@@ -23,8 +23,11 @@ body {
     scrollbar-width: none;  /* Firefox */
 }
 
-.banner {
+.home-img {
     background-image: url("./App/Assets/Banner.png");
+}
+
+.banner {
     background-size: cover;
     height: 200px;
     width: 100%;

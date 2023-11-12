@@ -50,7 +50,8 @@ background-color: #04AA6D;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
-  width: 300px;
+  max-width: 300px;
+  width: 80%;
   opacity: 0.9;
 }
 

@@ -26,6 +26,19 @@
 
 }
 
+label {
+    margin: 5px auto;
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+input {
+    float: right;
+    padding: .3rem;
+    margin-left: auto;
+    margin-right: 0;
+}
+
 .btn {
 background-color: #04AA6D;
   color: white;

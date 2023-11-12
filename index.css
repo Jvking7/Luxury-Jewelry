@@ -213,5 +213,20 @@ footer {
         align-items: center;
         padding: 0;
     }
+
+    .card {
+        min-height: 0;
+        height: fit-content;
+    }
+
+    .card-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card-col {
+        width: 100%;
+    }
+
     /* add flex wrap to my container flex boxes and nav bar */
 }

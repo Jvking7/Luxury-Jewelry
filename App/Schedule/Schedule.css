@@ -1,21 +1,23 @@
 .schedule-banner {
-    background-image: url("../Assets/Schedule_main_image.png");
-    background-size: cover;
+    object-fit: cover;
+    float: left;
     height: 600px;
     width: 100%;
     max-width: 1700px;
     border-radius: 10px;
-    font-family: Montserrat, Geneva, Tahoma, sans-serif;
-    display: flex;
-    flex-direction: column;
-    background-position: center;
     margin: 5px auto 2rem;
+    filter: blur(3px);
+    border: solid  white;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 340px;
     align-items: center;
+    font-family: Montserrat, Geneva, Tahoma, sans-serif;
     max-width: 1700px;
     padding: 16px;
     background-color: white;
@@ -23,6 +25,9 @@
     border: none;
     background: #f1f1f1;
     border-radius: 10px;
+    width: 60%;
+    max-width: 350px;
+    transform: translate(-50%, 50%);
 
 }
 
@@ -53,8 +58,8 @@ background-color: #04AA6D;
     opacity: 1;
 }
 
-@media (max-width: 480px) {
-    .text {
-        font-size: 14px;
+@media (max-width:  720px) {
+    .container {
+        top: 410px;
     }
 }

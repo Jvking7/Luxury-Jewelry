@@ -34,21 +34,19 @@
     <main>
         <div class="schedule-banner">
             <form action="/action_page.php" class="container">
-                <div>
-                <label for="email address">Email Address</label>
-                <input type="email address" id="email address" name="email_address">
-                </div>
-                <div>
-                <label for="booking date">Date of Booking</label>
-                <input type="date" id="booking_date" name="booking_date">
-                </div>
-                <div>
-                <label>
-                    <input type="checkbox" id="agree" name="agree" required>
-                    I agree to the cancellation policy
+                <label for="email">
+                    Email
+                    <input type="email" id="email" name="email">
                 </label>
-                </div>
-                <button type="submit" class="btn">Book Now</button>
+                <label for="schedule">
+                    Schedule a Visit
+                    <input type="date" id="schedule" name="schedule">
+                </label>
+                <label for="checkbox">
+                    I agree to the cancellation policy
+                    <input type="checkbox" id="agree" name="agree" required>
+                </label>
+                <button type="submit" class="btn">Schedule Now</button>
             </form>
         </div>
     </main>

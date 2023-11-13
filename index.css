@@ -169,18 +169,6 @@ section:last-of-type {
     transform: translateY(-5%);
 }
 
-table {
-    font-family:Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-        width: 85%;
-    margin: 0 auto;
-    font-size: 1.8rem;
-}
-
-td {
-    text-align: center;
-}
-
 footer {
     align-items: center;
     background-color: #8B939C;

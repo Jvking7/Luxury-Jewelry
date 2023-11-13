@@ -33,15 +33,3 @@ p{
     position: relative;
     top: 6px;
 }
-
-table {
-    font-family:Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-        width: 85%;
-    margin: 0 auto;
-    font-size: 1.8rem;
-}
-
-td {
-    text-align: center;
-}

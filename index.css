@@ -207,6 +207,15 @@ footer {
     margin: 0 auto;
 }
 
+.footer-container div a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #0D090A;
+    font-family: Montserrat, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+} 
+
 .footer-container div p {
     text-align: center;
     margin: 0 auto;
